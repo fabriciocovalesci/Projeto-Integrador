@@ -6,13 +6,14 @@ Objetivo inicial do projeto é desenvolver um sistema que será capaz de exibir 
 
 Para melhor entendimento o projeto será dividido em algumas partes para melhor entendimento.
 
-**Página inicial**
-**Página de recebimento de pedidos**
-**Página administrativa**
+**- Página inicial**
+
+**- Página de recebimento de pedidos**
+
+**- Página administrativa**
 
 ## Funcionabilidades atendidas
 
-- 
 
 # funcionabilidades não atendidas
 
