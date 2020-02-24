@@ -2,8 +2,10 @@
 
 ## Objetivo inicial do projeto
 
-Objetivo inicial do projeto é desenvolver um site direcionado a cafeterias, onde os clientes fazem seus pedidos.
+Objetivo inicial do projeto é desenvolver um site direcionado a cafeterias, onde os clientes fazem seus pedidos totalmente online.
+
 Cliente ao se sentar na mesa, precisa apenas escanear um QR Code com seu celular e partir dai será direcionado a uma página web, ele efetuara um cadastro com informações pessoais e enviara uma foto, a partir dai ele mesmo fará seu pedido, por meio de um cardápio online.
+
 O restaurante também contara com um site institucional, como meio de divulgação de seus serviços digitais.
 Haverá uma página destinada apenas para fins administrativos, onde apenas o proprietário e funcionários teriam acesso, cada usuário tera restrinções conforme cargo exercido.
 
