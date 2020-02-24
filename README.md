@@ -67,12 +67,12 @@ Projeto será dividido em algumas partes para melhor entendimento.
       5. Criar novo Funcionário.
       6. Criar cargo para funcionário.
       7. Imagens da cafeteria.
-         1. No sub menu *Meu Perfil* o usuário pode editar seu perfil.
-         2. No sub menu *Estoque* o funcionário pode consulta o estoque ou adiciona itens.
-         3. No sub menu *Caixa* o administrador pode verificar as vendas diárias, semanais, mensais.
-            1. Se o funcionário está habilitado para trabalhar como caixa, ele pode realizar os pagamentos diários da cafeteria.
-         4. No sub menu *Clientes* o administrador pode verificar quantos clientes fizeram compras diariamente, podera filtar por sexo, idade, hora de maior pedidos, tudo isso para melhorar o atendimento ou até mesmo o sistema. Também pode ajudar a criar campanhas de marketing especificos conforme com base nos pedidos dos usuários cadastrados.
-         5. No sub menu *Criar novo Funcionário* o administrador pode criar novo funcionário especificando o cargo, assim o funcionário terá acesso apenas nesta area do sistema.
+         * No sub menu *Meu Perfil* o usuário pode editar seu perfil.
+         * No sub menu *Estoque* o funcionário pode consulta o estoque ou adiciona itens.
+         * No sub menu *Caixa* o administrador pode verificar as vendas diárias, semanais, mensais.
+         * Se o funcionário está habilitado para trabalhar como caixa, ele pode realizar os pagamentos diários da cafeteria.
+         * No sub menu *Clientes* o administrador pode verificar quantos clientes fizeram compras diariamente, podera filtar por sexo, idade, hora de maior pedidos, tudo isso para melhorar o atendimento ou até mesmo o sistema. Também pode ajudar a criar campanhas de marketing especificos conforme com base nos pedidos dos usuários cadastrados.
+         * No sub menu *Criar novo Funcionário* o administrador pode criar novo funcionário especificando o cargo, assim o funcionário terá acesso apenas nesta area do sistema.
             1. **Cadastro de novo funcionário**
                1. Nome.
                2. telefone.
