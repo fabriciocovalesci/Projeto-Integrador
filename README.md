@@ -46,15 +46,15 @@ Projeto será dividido em algumas partes para melhor entendimento.
    
    2. Caso cliente ja possuir cadastro ele faz o login.
    3. Após o login o sistema exibe a última compra efetuada, se caso houver.
-   4. Um menu na barra superior com as seguintes funções.
-      1. Edita perfil.
-      2. Café.
-      3. Lanches.
-      4. Meu Café Favorito.
-         1. No sub menu *Edita perfil* o usuário pode editar seu perfil.
-         2. No sub menu *Café*, exibe o cardapio com todos tipo de cafés disponiveis, com foto, descrição e preço.
-         3. No sub menu *Lanches*, exibe o cardapio com todos os lanches disponiveis, com foto, descrição e preço.
-         4. No sub menu *Meu Café Favorito*, pode se colocar um café ou lanche como favorito.
+   4\. Um menu na barra superior com as seguintes funções.
+      1\. Edita perfil.
+      2\. Café.
+      3\. Lanches.
+      4\. Meu Café Favorito.
+         1\. No sub menu *Edita perfil* o usuário pode editar seu perfil.
+         2\. No sub menu *Café*, exibe o cardapio com todos tipo de cafés disponiveis, com foto, descrição e preço.
+         3\. No sub menu *Lanches*, exibe o cardapio com todos os lanches disponiveis, com foto, descrição e preço.
+         4\. No sub menu *Meu Café Favorito*, pode se colocar um café ou lanche como favorito.
 
 3. ### **Página Administrativa**
 
@@ -89,7 +89,7 @@ Projeto será dividido em algumas partes para melhor entendimento.
 ## Funcionabilidades Não Atendidas
 
 
-### **Funcionabilidades de pontos**
+#### **Funcionabilidades de pontos**
 
 Com base nos pedidos do usuário poderia se criar um sistema de pontos, isso seria havaliado da seguinte forma:
 
@@ -97,7 +97,7 @@ Com base nos pedidos do usuário poderia se criar um sistema de pontos, isso ser
   
 - Cliente uma vez na semana: se realiar pedidos ao menos uma vez na semana, receberia pontos que poderia ser convertido em desconto.
 
-### **Sub menus da página administrativa**
+#### **Sub menus da página administrativa**
 
 - Poderá não ser implementada esta funcionabilidade.
 
