@@ -86,10 +86,10 @@ Projeto será dividido em algumas partes para melhor entendimento.
          7. No sub menu *Imagens da cafeteria* o administrador tem acesso a camera de segurança de dentro do estabelecimento, esta mesma camera identifica os clientes.
 
 
-# funcionabilidades Não Atendidas
+## Funcionabilidades Não Atendidas
 
 
-1. ## **Funcionabilidades de pontos**
+1. ### **Funcionabilidades de pontos**
 
 Com base nos pedidos do usuário poderia se criar um sistema de pontos, isso seria havaliado da seguinte forma:
 
@@ -97,7 +97,7 @@ Com base nos pedidos do usuário poderia se criar um sistema de pontos, isso ser
   
 - Cliente 1 vez na semana: se realiar pedidos ao menos uma vez na semana, receberia pontos que poderia ser convertido em desconto.
 
-2. ## **Sub menus da página administrativa**
+2. ### **Sub menus da página administrativa**
 
 - Poderá não ser implementada esta funcionabilidade.
 
