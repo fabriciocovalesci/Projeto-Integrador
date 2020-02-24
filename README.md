@@ -89,8 +89,7 @@ Projeto será dividido em algumas partes para melhor entendimento.
 ## Funcionabilidades Não Atendidas
 
 
-1. ### **Funcionabilidades de pontos**
-1. ### **Página Administrativa**
+### **Funcionabilidades de pontos**
 
 Com base nos pedidos do usuário poderia se criar um sistema de pontos, isso seria havaliado da seguinte forma:
 
@@ -98,7 +97,7 @@ Com base nos pedidos do usuário poderia se criar um sistema de pontos, isso ser
   
 - Cliente uma vez na semana: se realiar pedidos ao menos uma vez na semana, receberia pontos que poderia ser convertido em desconto.
 
-2. ### **Sub menus da página administrativa**
+### **Sub menus da página administrativa**
 
 - Poderá não ser implementada esta funcionabilidade.
 
@@ -110,3 +109,23 @@ Com base nos pedidos do usuário poderia se criar um sistema de pontos, isso ser
 
 
 # Tecnologias que serão utilizadas
+
+Para desenvolvimento do site serão utilizados as seguintes tecnologias:
+
+## Back-end
+
+- Django
+- Django REST framework
+- GraphQL
+
+## Front-end
+
+- Vue.js
+
+## Banco de Dados
+
+- PostgreSQL
+
+## Platform as a Service - PaaS
+
+- Heroku
