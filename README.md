@@ -17,7 +17,7 @@ Projeto será dividido em algumas partes para melhor entendimento.
 
 ## Funcionabilidades atendidas
 
-1. Site da empresa
+1. **### Site da empresa**
    1. Menu para navegação dentro do site.
       1. Inicio.
       2. A Empresa.
@@ -28,6 +28,28 @@ Projeto será dividido em algumas partes para melhor entendimento.
    3. Informações de contato  e localização.
    4. Fotos com descrições dos produtos.
    5. Formulário para usuários enviar mensagens.
+
+2. **### Cadastro de novos cliente**
+   1. Sistema irá pergunta se cliente já está cadastrado, caso não tiver, será direcionado para o cadastro, as seguintes informações serão solicitadas:
+      1. Nome
+      2. telefone
+      3. email
+      4. endereço
+      5. sexo
+      6. data de nascimento
+      7. foto para perfil
+      8. senha para acesso
+   2. Caso cliente ja possuir cadastro ele faz o login
+   3. Após o login o sistema exibe a última compra efetuada, se caso houver
+   4. Um menu na barra superior com as seguintes funções
+      1. Edita perfil
+      2. Café
+      3. Lanches
+      4. Meu Café Favorito
+         1. No sub menu *Edita perfil* o usuário pode editar seu perfil
+         2. No sub menu *Café*, exibe o cardapio com todos tipo de cafés disponiveis, com foto, descrição e preço.
+         3. No sub menu *Lanches*, exibe o cardapio com todos os lanches disponiveis, com foto, descrição e preço.
+         4. No sub menu *Meu Café Favorito*, pode se colocar um café ou lanche como favorito.
    
 # funcionabilidades não atendidas
 
