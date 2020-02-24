@@ -51,10 +51,10 @@ Projeto será dividido em algumas partes para melhor entendimento.
       2. Café.
       3. Lanches.
       4. Meu Café Favorito.
-         * No sub menu *Edita perfil* o usuário pode editar seu perfil.
-         * No sub menu *Café*, exibe o cardapio com todos tipo de cafés disponiveis, com foto, descrição e preço.
-         * No sub menu *Lanches*, exibe o cardapio com todos os lanches disponiveis, com foto, descrição e preço.
-         * No sub menu *Meu Café Favorito*, pode se colocar um café ou lanche como favorito.
+          * No sub menu *Edita perfil* o usuário pode editar seu perfil.
+          * No sub menu *Café*, exibe o cardapio com todos tipo de cafés disponiveis, com foto, descrição e preço.
+          * No sub menu *Lanches*, exibe o cardapio com todos os lanches disponiveis, com foto, descrição e preço.
+          * No sub menu *Meu Café Favorito*, pode se colocar um café ou lanche como favorito.
 
 3. ### **Página Administrativa**
 
