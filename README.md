@@ -109,6 +109,10 @@ Com base nos pedidos do usuário poderia se criar um sistema de pontos, isso ser
 
 - Sub menu *Clientes* na página adminstrativa poderá não ser implementada.
 
+#### **AWS**
+
+- Os arquivos estáticos talvez serão hospedados na aws.
+
 
 # Tecnologias que serão utilizadas
 
@@ -131,3 +135,4 @@ Para desenvolvimento do site serão utilizados as seguintes tecnologias:
 ## Platform as a Service - PaaS
 
 - Heroku
+- AWS
