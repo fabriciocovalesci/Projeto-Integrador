@@ -17,7 +17,8 @@ Projeto será dividido em algumas partes para melhor entendimento.
 
 ## Funcionabilidades atendidas
 
-1. **### Site da empresa**
+1. ### **Site da empresa**
+
    1. Menu para navegação dentro do site.
       1. Inicio.
       2. A Empresa.
@@ -29,7 +30,8 @@ Projeto será dividido em algumas partes para melhor entendimento.
    4. Fotos com descrições dos produtos.
    5. Formulário para usuários enviar mensagens.
 
-2. **### Cadastro de novos cliente**
+2. ### **Cadastro de novos cliente**
+
    1. Sistema irá pergunta se cliente já está cadastrado, caso não tiver, será direcionado para o cadastro, as seguintes informações serão solicitadas:
       1. Nome
       2. telefone
