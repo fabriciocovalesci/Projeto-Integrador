@@ -4,10 +4,10 @@
 
 Objetivo inicial do projeto é desenvolver um site direcionado a cafeterias, onde os clientes fazem seus pedidos totalmente online.
 
-Cliente ao se sentar na mesa, precisa apenas escanear um QR Code com seu celular e partir dai será direcionado a uma página web, ele efetuara um cadastro com informações pessoais e enviara uma foto, a partir dai ele mesmo fará seu pedido, por meio de um cardápio online.
+Cliente ao se sentar na mesa, precisa apenas escanear um QR Code com seu celular e partir dai será direcionado a uma página web, ele irá criar uma conta com suas informações pessoais e enviara uma foto, a partir dai ele mesmo fará seu pedido, por meio de um cardapio online.
 
-O restaurante também contara com um site institucional, como meio de divulgação de seus serviços digitais.
-Haverá uma página destinada apenas para fins administrativos, onde apenas o proprietário e funcionários teriam acesso, cada usuário tera restrinções conforme cargo exercido.
+A cafeteria também contara com um site institucional, para ter maior visibilidade na internet, com finalidade de conquistar mais clientes.
+Haverá uma página destinada apenas para fins administrativos, onde apenas o proprietário e funcionários terão acesso, cada usuário tera restrinções conforme cargo exercido.
 
 Projeto será dividido em algumas partes para melhor entendimento.
 
@@ -127,6 +127,9 @@ Para desenvolvimento do site serão utilizados as seguintes tecnologias:
 ## Front-end
 
 - Vue.js
+- HTML
+- CSS
+- JavaScript
 
 ## Banco de Dados
 
