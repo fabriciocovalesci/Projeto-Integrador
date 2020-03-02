@@ -34,7 +34,7 @@ Projeto será dividido em algumas partes para melhor entendimento.
          4. Formulário para usuários enviar mensagens.
          5. Login será *apenas para funcionários, serão direcionados para página admistrativa do site.
 
-2. ### **Cadastro de novos cliente**
+2. ### **Cadastro de novos cliente** 
 
    1. Sistema irá pergunta se cliente já está cadastrado, caso não tiver, será direcionado para o cadastro, as seguintes informações serão solicitadas:
       1. Nome.
@@ -84,8 +84,8 @@ Projeto será dividido em algumas partes para melhor entendimento.
                6. data de nascimento.
                7. foto para perfil.
                8. senha para acesso.
-         6. No sub menu *Criar cargo para funcionário* especificaria um cargo para funcionário, como caixa, estoque.
-         7. No sub menu *Imagens da cafeteria* o administrador tem acesso a camera de segurança de dentro do estabelecimento, esta mesma camera identifica os clientes.
+         1. No sub menu *Criar cargo para funcionário* especificaria um cargo para funcionário, como caixa, estoque.
+         2. No sub menu *Imagens da cafeteria* o administrador tem acesso a camera de segurança de dentro do estabelecimento, esta mesma camera identifica os clientes.
 
 
 ## Funcionabilidades Não Atendidas
