@@ -1,4 +1,4 @@
-# Cafeteria *Return my coffee*
+# Cafeteria *Coffee Break*
 
 ## Objetivo inicial do projeto
 
