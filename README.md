@@ -2,12 +2,12 @@
 
 ## Objetivo inicial do projeto
 
-Objetivo inicial do projeto é desenvolver um site direcionado a cafeterias, onde os clientes fazem seus pedidos totalmente online.
+Na busca por um atendimento mais eficiente, foi proposto desenvolver um sistema dando mais autonomia para o cliente, assim ele mesmo faz seus pedidos apenas com o proprio celular.
 
-Cliente ao se sentar na mesa, precisa apenas escanear um QR Code com seu celular e partir dai será direcionado a uma página web, ele irá criar uma conta com suas informações pessoais e enviara uma foto, a partir dai ele mesmo fará seu pedido, por meio de um cardapio online.
+Cliente ao se sentar na mesa, precisa apenas escanear um QR Code com seu celular e partir dai será direcionado a uma página web, ele irá criar uma conta com suas informações pessoais, a partir dai ele mesmo fará seu pedido, por meio de um cardapio online. 
 
 A cafeteria também contara com um site institucional, para ter maior visibilidade na internet, com finalidade de conquistar mais clientes.
-Haverá uma página destinada apenas para fins administrativos, onde apenas o proprietário e funcionários terão acesso, cada usuário tera restrinções conforme cargo exercido.
+
 
 Projeto será dividido em algumas partes para melhor entendimento.
 
@@ -138,4 +138,3 @@ Para desenvolvimento do site serão utilizados as seguintes tecnologias:
 ## Platform as a Service - PaaS
 
 - Heroku
-- AWS
