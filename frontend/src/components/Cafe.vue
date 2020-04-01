@@ -78,7 +78,7 @@ export default {};
 
 .imagem-carrossel {
   object-fit: cover;
-  object-position: 0 80%;
+  object-position: 80 20%;
   height: 500px;
 }
 

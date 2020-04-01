@@ -25,6 +25,9 @@
             <a class="nav-link fonte-nav " href="#">O Café</a>
           </li>
           <li class="nav-item align-self-end">
+            <a class="nav-link fonte-nav" href="#">Faça seu pedido!</a>
+          </li>
+          <li class="nav-item align-self-end">
             <a class="nav-link fonte-nav" href="#">Localização</a>
           </li>
           <li class="nav-item align-self-end">

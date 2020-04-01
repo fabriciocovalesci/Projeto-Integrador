@@ -18,7 +18,7 @@ export default {};
   margin: 0 auto;
   padding: 2%;
   background: #2c1c0d;
-  height: 60px;
+  height: 70px;
 }
 
 .subtitulo {
