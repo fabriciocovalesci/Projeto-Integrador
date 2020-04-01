@@ -1,6 +1,6 @@
 <template>
   <div class="fonte-nav">
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-color">
       <a class="navbar-brand fonte-nav" href="#" />
       <b-img :src="require('@/assets/coffee.png')"></b-img>
       <button
@@ -32,7 +32,10 @@
           </li>
         </ul>
         <span class="navbar-text fonte-nav">
-          Sem definição
+          <p>
+            Em um relacionamento sério com café
+            <b-icon icon="heart-fill"></b-icon>
+          </p>
         </span>
       </div>
     </nav>
@@ -50,6 +53,10 @@ export default {
 <style scoped>
 @import url("https://fonts.googleapis.com/css?family=ABeeZee&display=swap");
 @import "bootstrap/dist/css/bootstrap.css";
+
+.navbar-color {
+  background: #534329;
+}
 
 .fonte-nav {
   font-family: "ABeeZee", sans-serif;
