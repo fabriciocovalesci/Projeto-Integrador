@@ -1,20 +1,21 @@
 <template>
-    <div>
-        <nav-bar></nav-bar>
-        <cafe></cafe>
-    </div>
+  <div>
+    <nav-bar></nav-bar>
+    <cafe></cafe>
+  </div>
 </template>
 
 <script>
-import NavBar from '@/components/NavBar'
-import Cafe from '@/components/Cafe'
+import NavBar from "@/components/NavBar.vue";
+import Cafe from "@/components/Cafe.vue";
 export default {
-
-    components: {
+  components: {
     NavBar,
-    Cafe,
-   
+    Cafe
   }
-    
-}
+};
 </script>
+
+<style>
+@import "bootstrap/dist/css/bootstrap.css";
+</style>
