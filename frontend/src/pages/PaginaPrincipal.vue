@@ -9,14 +9,14 @@
 <script>
 import NavBar from "@/components/NavBar.vue";
 import Cafe from "@/components/Cafe.vue";
-import SubTitulo from "./components/SubTitulo";
+import SubTitulo from "@/components/SubTitulo";
 
 export default {
   components: {
     NavBar,
     Cafe,
-    SubTitulo
-  }
+    SubTitulo,
+  },
 };
 </script>
 

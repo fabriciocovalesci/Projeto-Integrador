@@ -22,7 +22,7 @@
             >
           </li>
           <li class="nav-item align-self-end">
-            <a class="nav-link fonte-nav " href="#">O Café</a>
+            <a class="nav-link fonte-nav" href="#">O Café</a>
           </li>
           <li class="nav-item align-self-end">
             <a class="nav-link fonte-nav" href="#">Faça seu pedido!</a>
@@ -49,7 +49,7 @@
 import "bootstrap/dist/js/bootstrap.js";
 
 export default {
-  name: "nav-bar"
+  name: "nav-bar",
 };
 </script>
 
