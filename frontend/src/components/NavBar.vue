@@ -65,4 +65,9 @@ export default {
   font-family: "ABeeZee", sans-serif;
   color: #ffffff !important;
 }
+
+.fonte-nav a:hover {
+  text-decoration: underline;
+  color: #000 !important;
+}
 </style>

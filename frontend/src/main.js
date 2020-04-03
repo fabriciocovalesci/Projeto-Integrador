@@ -5,7 +5,9 @@ import App from "./App";
 import router from "./router";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { BootstrapVue, IconsPlugin, FormPlugin } from "bootstrap-vue";
+import { CardPlugin } from "bootstrap-vue";
 
+Vue.use(CardPlugin);
 Vue.use(BootstrapVue);
 Vue.use(IconsPlugin);
 Vue.use(FormPlugin);
