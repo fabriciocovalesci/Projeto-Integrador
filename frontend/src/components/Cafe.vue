@@ -1,69 +1,67 @@
 <template>
-  <div class="container">
-    <div class="row col-sm-3 col">
-      <div class="card borda" style="width: 18rem;">
-        <img
-          class="card-img-top"
-          :src="require('@/assets/cafeteria.jpg')"
-          alt="Card image cap"
-        />
-        <div class="card-body">
-          <p class="card-text">
-            Ambiente muito aconchegante, para desfrutar do nosso delicioso café.
-          </p>
-        </div>
+  <div class="container d-flex justify-content-around flex-wrap">
+    <div class="card borda" style="width: 18rem;">
+      <img
+        class="card-img-top"
+        :src="require('@/assets/cafeteria.jpg')"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <p class="card-text">
+          Ambiente muito aconchegante, para desfrutar do nosso delicioso café.
+        </p>
       </div>
+    </div>
 
-      <div class="card borda" style="width: 18rem;">
-        <img
-          class="card-img-top"
-          :src="require('@/assets/cafeteria.jpg')"
-          alt="Card image cap"
-        />
-        <div class="card-body">
-          <p class="card-text">
-            Ambiente muito aconchegante, para desfrutar do nosso delicioso café.
-          </p>
-        </div>
+    <div class="card borda" style="width: 18rem;">
+      <img
+        class="card-img-top"
+        :src="require('@/assets/cafeteria.jpg')"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <p class="card-text">
+          Ambiente muito aconchegante, para desfrutar do nosso delicioso café.
+        </p>
       </div>
+    </div>
 
-      <div class="card borda" style="width: 18rem;">
-        <img
-          class="card-img-top"
-          :src="require('@/assets/cafeteria.jpg')"
-          alt="Card image cap"
-        />
-        <div class="card-body">
-          <p class="card-text">
-            Ambiente muito aconchegante, para desfrutar do nosso delicioso café.
-          </p>
-        </div>
+    <div class="card borda" style="width: 18rem;">
+      <img
+        class="card-img-top"
+        :src="require('@/assets/cafeteria.jpg')"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <p class="card-text">
+          Ambiente muito aconchegante, para desfrutar do nosso delicioso café.
+        </p>
       </div>
+    </div>
 
-      <div class="card borda" style="width: 18rem;">
-        <img
-          class="card-img-top"
-          :src="require('@/assets/cafeteria.jpg')"
-          alt="Card image cap"
-        />
-        <div class="card-body">
-          <p class="card-text">
-            Ambiente muito aconchegante, para desfrutar do nosso delicioso café.
-          </p>
-        </div>
+    <div class="card borda" style="width: 18rem;">
+      <img
+        class="card-img-top"
+        :src="require('@/assets/cafeteria.jpg')"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <p class="card-text">
+          Ambiente muito aconchegante, para desfrutar do nosso delicioso café.
+        </p>
       </div>
+    </div>
 
-      <div class="card borda" style="width: 18rem;">
-        <img
-          class="card-img-top"
-          :src="require('@/assets/cafeteria.jpg')"
-          alt="Card image cap"
-        />
-        <div class="card-body">
-          <p class="card-text">
-            Ambiente muito aconchegante, para desfrutar do nosso delicioso café.
-          </p>
-        </div>
+    <div class="card borda" style="width: 18rem;">
+      <img
+        class="card-img-top"
+        :src="require('@/assets/cafeteria.jpg')"
+        alt="Card image cap"
+      />
+      <div class="card-body">
+        <p class="card-text">
+          Ambiente muito aconchegante, para desfrutar do nosso delicioso café.
+        </p>
       </div>
     </div>
   </div>
