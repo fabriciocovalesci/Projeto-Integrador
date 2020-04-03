@@ -5,7 +5,7 @@
         id="carousel-controladores"
         class="carousel slide"
         data-ride="carousel"
-        data-interval="2500"
+        data-interval="3000"
       >
         <ol class="carousel-indicators">
           <li
@@ -80,9 +80,6 @@ export default {};
   object-fit: cover;
   object-position: 80 20%;
   height: 500px;
-}
-
-.subtitulo {
 }
 
 .foto {
