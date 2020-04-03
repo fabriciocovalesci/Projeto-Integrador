@@ -4,10 +4,12 @@ import Vue from "vue";
 import App from "./App";
 import router from "./router";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
-import { BootstrapVue, IconsPlugin } from "bootstrap-vue";
+import { BootstrapVue, IconsPlugin, FormPlugin } from "bootstrap-vue";
 
 Vue.use(BootstrapVue);
 Vue.use(IconsPlugin);
+Vue.use(FormPlugin);
+
 Vue.use(FontAwesomeIcon);
 
 Vue.config.productionTip = false;
