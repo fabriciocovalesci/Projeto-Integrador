@@ -1,52 +1,53 @@
 <template>
   <div>
-    <b-form @submit="onSubmit" @reset="onReset" v-if="show">
-      <b-form-group
-        id="input-group-1"
-        label="Email address:"
-        label-for="input-1"
-        description="We'll never share your email with anyone else."
-      >
-        <b-form-input
-          id="input-1"
-          v-model="form.email"
-          type="email"
-          required
-          placeholder="Enter email"
-        ></b-form-input>
-      </b-form-group>
+    <div>
+      <h2 class="titulo">Contato</h2>
+    </div>
 
-      <b-form-group id="input-group-2" label="Your Name:" label-for="input-2">
-        <b-form-input
-          id="input-2"
-          v-model="form.name"
-          required
-          placeholder="Enter name"
-        ></b-form-input>
-      </b-form-group>
+    <div class="campos-principal titulo">
+      <b-form @submit="onSubmit" @reset="onReset" v-if="show">
+        <b-form-group id="input-group-1" label="Email:" label-for="input-1">
+          <b-form-input
+            class="campos"
+            id="input-1"
+            v-model="form.email"
+            type="email"
+            required
+            placeholder="Seu email ..."
+          >
+          </b-form-input>
+        </b-form-group>
 
-      <b-form-group id="input-group-3" label="Food:" label-for="input-3">
-        <b-form-select
-          id="input-3"
-          v-model="form.food"
-          :options="foods"
-          required
-        ></b-form-select>
-      </b-form-group>
+        <b-form-group
+          id="input-group-2"
+          label="Nome Completo:"
+          label-for="input-2"
+        >
+          <b-form-input
+            class="campos"
+            id="input-2"
+            v-model="form.name"
+            required
+            placeholder="Seu nome ..."
+          ></b-form-input>
+        </b-form-group>
 
-      <b-form-group id="input-group-4">
-        <b-form-checkbox-group v-model="form.checked" id="checkboxes-4">
-          <b-form-checkbox value="me">Check me out</b-form-checkbox>
-          <b-form-checkbox value="that">Check that out</b-form-checkbox>
-        </b-form-checkbox-group>
-      </b-form-group>
+        <p class="titulo">Deixe seu comentário</p>
+        <b-form-textarea
+          id="textarea-no-resize"
+          placeholder="Seu comentário é importante para nós ..."
+          rows="10"
+          no-resize
+        ></b-form-textarea>
 
-      <b-button type="submit" variant="primary">Submit</b-button>
-      <b-button type="reset" variant="danger">Reset</b-button>
-    </b-form>
-    <b-card class="mt-3" header="Form Data Result">
-      <pre class="m-0">{{ form }}</pre>
-    </b-card>
+        <b-button type="submit" class="mt-4 p-2" variant="primary"
+          >Submit</b-button
+        >
+        <b-button type="reset" class="mt-4 p-2" variant="danger"
+          >Reset</b-button
+        >
+      </b-form>
+    </div>
   </div>
 </template>
 
@@ -92,3 +93,27 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+@import url("https://fonts.googleapis.com/css?family=ABeeZee&display=swap");
+
+.titulo {
+  font-family: "ABeeZee", sans-serif;
+  text-align: center;
+  color: #2c1c0d;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.campos-principal {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.campos {
+  width: 60%;
+  height: 40px;
+  margin: 0 auto;
+  padding: 15px;
+}
+</style>

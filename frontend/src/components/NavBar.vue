@@ -1,6 +1,6 @@
 <template>
   <div class="fonte-nav">
-    <nav class="navbar navbar-expand-lg navbar-light navbar-color">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-color fixed-top">
       <a class="navbar-brand fonte-nav" href="#" />
       <b-img :src="require('@/assets/coffee.png')"></b-img>
       <button
@@ -17,8 +17,8 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active align-self-end">
-            <a class="nav-link fonte-nav" href="#"
-              >Home <span class="sr-only">(current)</span></a
+            <router-link class="nav-link fonte-nav" to="/home"
+              >Home</router-link
             >
           </li>
           <li class="nav-item align-self-end">

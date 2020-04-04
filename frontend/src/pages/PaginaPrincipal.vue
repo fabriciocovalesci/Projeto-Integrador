@@ -6,6 +6,7 @@
     <Cafe />
     <localizacao></localizacao>
     <contato></contato>
+    <Footer />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import SubTitulo from "@/components/SubTitulo";
 import Cafe from "@/components/Cafe";
 import Localizacao from "@/components/Localizacao";
 import Contato from "@/components/Contato";
+import Footer from "@/components/Footer.vue";
 
 export default {
   components: {
@@ -25,6 +27,7 @@ export default {
     Cafe,
     Localizacao,
     Contato,
+    Footer,
   },
 };
 </script>

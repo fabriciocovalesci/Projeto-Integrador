@@ -24,16 +24,14 @@ export default {
   font-family: "ABeeZee", sans-serif;
   text-align: center;
   color: #2c1c0d;
-  margin: 20px auto 0 auto;
+  margin: 30px auto 10px auto;
   padding: 10px;
 }
 
 .mapa {
   width: 100%;
   height: 400px;
-  margin-top: 15px;
-  padding: 0 30px;
-  display: flex;
-  justify-content: center;
+  margin: 0 auto;
+  padding: 20px;
 }
 </style>
