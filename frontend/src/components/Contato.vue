@@ -36,15 +36,12 @@
         <b-form-textarea
           id="textarea-no-resize"
           placeholder="Seu comentário é importante para nós ..."
-          rows="10"
+          rows="7"
           no-resize
         ></b-form-textarea>
 
-        <b-button type="submit" class="mt-4 p-2" variant="primary"
-          >Submit</b-button
-        >
-        <b-button type="reset" class="mt-4 p-2" variant="danger"
-          >Reset</b-button
+        <b-button type="submit" class="mt-4 p-2 mb-3" variant="primary"
+          >Enviar</b-button
         >
       </b-form>
     </div>
