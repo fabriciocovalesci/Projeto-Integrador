@@ -1,12 +1,12 @@
 {
-  "name": "frontend",
+  "name": "cafefrontend",
   "version": "1.0.0",
   "description": "A Vue.js project",
   "author": "Fabricio <fabcovalesci@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
-    "start": "npm run dev",
+    "start": "npm run dev node server.js",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js"
   },
@@ -16,6 +16,7 @@
     "@fortawesome/vue-fontawesome": "^0.1.9",
     "bootstrap": "^4.4.1",
     "bootstrap-vue": "^2.10.1",
+    "express": "^4.17.1",
     "jquery": "^3.4.1",
     "vue": "^2.6.11",
     "vue-router": "^3.0.1"
