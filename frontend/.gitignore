@@ -3,7 +3,7 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-requirements.txt*
+requirements.txt
 pkg-resources*
 
 # Editor directories and files
@@ -13,3 +13,8 @@ pkg-resources*
 *.ntvs*
 *.njsproj
 *.sln
+.venv
+.vscode
+*.sqlite3
+*pyc
+__pycache__
