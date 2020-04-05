@@ -79,7 +79,7 @@ export default {};
 .imagem-carrossel {
   object-fit: cover;
   object-position: 80 20%;
-  height: 500px;
+  height: 570px;
 }
 
 .foto {

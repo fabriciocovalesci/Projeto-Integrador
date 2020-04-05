@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    <p class="titulo">by Fabrício L. Covalesci</p>
+    <p class="titulo">&copy; by Fabrício L. Covalesci</p>
   </div>
 </template>
 

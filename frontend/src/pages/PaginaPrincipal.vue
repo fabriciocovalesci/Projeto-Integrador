@@ -6,6 +6,7 @@
     <Cafe />
     <localizacao></localizacao>
     <contato></contato>
+    <RedeSocial />
     <Footer />
   </div>
 </template>
@@ -17,6 +18,7 @@ import SubTitulo from "@/components/SubTitulo";
 import Cafe from "@/components/Cafe";
 import Localizacao from "@/components/Localizacao";
 import Contato from "@/components/Contato";
+import RedeSocial from "@/components/RedeSocial.vue";
 import Footer from "@/components/Footer.vue";
 
 export default {
@@ -27,6 +29,7 @@ export default {
     Cafe,
     Localizacao,
     Contato,
+    RedeSocial,
     Footer,
   },
 };

@@ -32,6 +32,16 @@
           ></b-form-input>
         </b-form-group>
 
+        <b-form-group id="input-group-3" label="Assunto:" label-for="input-3">
+          <b-form-input
+            class="campos"
+            id="input-3"
+            v-model="form.name"
+            required
+            placeholder="Assunto ..."
+          ></b-form-input>
+        </b-form-group>
+
         <p class="titulo">Deixe seu comentário</p>
         <b-form-textarea
           id="textarea-no-resize"

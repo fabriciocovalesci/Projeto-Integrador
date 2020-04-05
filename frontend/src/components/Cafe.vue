@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="titulo">Nossos Produstos</h2>
+    <h2 class="titulo">Nossos Produtos</h2>
 
     <div class="container d-flex justify-content-around flex-wrap">
       <div class="card borda" style="width: 18rem;">
