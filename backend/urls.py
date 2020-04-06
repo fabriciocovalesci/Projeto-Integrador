@@ -26,6 +26,7 @@ from rest_framework import routers
 from backend.usuario.api.viewsets import UsuarioViewSets
 from backend.cafes.api.viewsets import CafesViewSets
 from backend.doces.api.viewsets import DocesViewSets
+from backend.salgados.api.viewsets import SalgadosViewSets
 
 
 """
@@ -35,9 +36,11 @@ router = routers.DefaultRouter()
 router.register(r'api/v1/usuario', UsuarioViewSets)
 router.register(r'api/v1/cafes', CafesViewSets)
 router.register(r'api/v1/doces', DocesViewSets)
+router.register(r'api/v1/salgados', SalgadosViewSets)
+
 
 
 urlpatterns = [
     path('', include(router.urls)),
     path('admin/', admin.site.urls),
-]
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
