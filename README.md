@@ -8,6 +8,7 @@ Cliente ao se sentar na mesa, precisa apenas escanear um QR Code com seu celular
 
 A cafeteria também contara com um site institucional, para ter maior visibilidade na internet, com finalidade de conquistar mais clientes.
 
+### Um deploy inicial já foi realizado, e pode ser acessado neste [Link](https://cafefrontend.herokuapp.com/#/)
 
 Projeto será dividido em algumas partes para melhor entendimento.
 
