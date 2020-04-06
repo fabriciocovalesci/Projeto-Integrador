@@ -41,6 +41,12 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
     # app para criação de banco e api
+    "backend.usuario",
+    "backend.cafes",
+    "backend.doces",
+    "backend.salgados",
+    "backend.pedido",
+    "backend.cardapio",
   
 ]
 
@@ -136,3 +142,8 @@ STATICFILES_DIRS = (
 )
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+
+MEDIA_ROOT = "imagens"
+MEDIA_URL = "/media/"
+
