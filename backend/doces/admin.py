@@ -1,3 +1,4 @@
 from django.contrib import admin
+from backend.doces.models import Doces
 
-# Register your models here.
+admin.site.register(Doces)

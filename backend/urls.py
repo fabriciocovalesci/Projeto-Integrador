@@ -25,6 +25,7 @@ from rest_framework import routers
 
 from backend.usuario.api.viewsets import UsuarioViewSets
 from backend.cafes.api.viewsets import CafesViewSets
+from backend.doces.api.viewsets import DocesViewSets
 
 
 """
@@ -33,6 +34,8 @@ Rotas dos endpoints da API
 router = routers.DefaultRouter()
 router.register(r'api/v1/usuario', UsuarioViewSets)
 router.register(r'api/v1/cafes', CafesViewSets)
+router.register(r'api/v1/doces', DocesViewSets)
+
 
 urlpatterns = [
     path('', include(router.urls)),
