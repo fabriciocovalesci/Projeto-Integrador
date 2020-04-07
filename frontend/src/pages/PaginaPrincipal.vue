@@ -1,6 +1,5 @@
 <template>
   <div>
-    <nav-bar></nav-bar>
     <InicialPrincipal></InicialPrincipal>
     <SubTitulo />
     <Cafe />
@@ -12,7 +11,6 @@
 </template>
 
 <script>
-import NavBar from "@/components/NavBar.vue";
 import InicialPrincipal from "@/components/InicialPrincipal.vue";
 import SubTitulo from "@/components/SubTitulo";
 import Cafe from "@/components/Cafe";
@@ -23,15 +21,14 @@ import Footer from "@/components/Footer.vue";
 
 export default {
   components: {
-    NavBar,
     InicialPrincipal,
     SubTitulo,
     Cafe,
     Localizacao,
     Contato,
     RedeSocial,
-    Footer,
-  },
+    Footer
+  }
 };
 </script>
 

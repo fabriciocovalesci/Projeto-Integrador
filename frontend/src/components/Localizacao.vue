@@ -1,6 +1,6 @@
 <template>
   <div class="conteiner">
-    <h3 class="titulo">Localização</h3>
+    <h3 id="localizacao">Localização</h3>
     <p class="endereco">
       Estamos localizados no centro da cidade para sua melhor comodidade.
     </p>
@@ -17,12 +17,20 @@
 
 <script>
 export default {
-  name: "localizacao",
+  name: "localizacao"
 };
 </script>
 
 <style scope>
 @import url("https://fonts.googleapis.com/css?family=ABeeZee&display=swap");
+
+#localizacao {
+  margin-top: 64px !important;
+  font-family: "ABeeZee", sans-serif;
+  text-align: center;
+  color: #2c1c0d;
+  padding: 10px;
+}
 
 .titulo {
   font-family: "ABeeZee", sans-serif;

@@ -54,6 +54,8 @@ export default {};
 .titulo {
   font-family: "ABeeZee", sans-serif;
   text-align: center;
+  margin-top: 90px !important;
+  color: #534329;
 }
 
 .paragrafo {

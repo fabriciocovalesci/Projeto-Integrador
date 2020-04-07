@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <h2 class="titulo">Contato</h2>
+      <h2 class="contato">Contato</h2>
     </div>
 
     <div class="campos-principal titulo">
@@ -46,11 +46,15 @@
         <b-form-textarea
           id="textarea-no-resize"
           placeholder="Seu comentário é importante para nós ..."
-          rows="7"
+          rows="5"
           no-resize
         ></b-form-textarea>
 
-        <b-button type="submit" class="mt-4 p-2 mb-3" variant="primary"
+        <b-button
+          type="submit"
+          class="mt-4 p-2 mb-3 botao"
+          pill
+          variant="primary"
           >Enviar</b-button
         >
       </b-form>
@@ -67,16 +71,16 @@ export default {
         email: "",
         name: "",
         food: null,
-        checked: [],
+        checked: []
       },
       foods: [
         { text: "Select One", value: null },
         "Carrots",
         "Beans",
         "Tomatoes",
-        "Corn",
+        "Corn"
       ],
-      show: true,
+      show: true
     };
   },
   methods: {
@@ -96,19 +100,25 @@ export default {
       this.$nextTick(() => {
         this.show = true;
       });
-    },
-  },
+    }
+  }
 };
 </script>
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css?family=ABeeZee&display=swap");
 
+.contato {
+  font-family: "ABeeZee", sans-serif;
+  text-align: center;
+  color: #2c1c0d;
+  padding: 10px;
+  margin-top: 64px;
+}
 .titulo {
   font-family: "ABeeZee", sans-serif;
   text-align: center;
   color: #2c1c0d;
-  margin: 0 auto;
   padding: 10px;
 }
 
@@ -122,5 +132,9 @@ export default {
   height: 40px;
   margin: 0 auto;
   padding: 15px;
+}
+
+.botao {
+  width: 20%;
 }
 </style>
