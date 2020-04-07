@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
     # app para criação de banco e api
+    "backend.fotosfrontend",
     "backend.usuario",
     "backend.cafes",
     "backend.doces",
