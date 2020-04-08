@@ -46,6 +46,8 @@ INSTALLED_APPS = [
     "backend.cafes",
     "backend.doces",
     "backend.salgados",
+    "backend.bebidas",
+    "backend.chas",
     "backend.pedido",
     "backend.cardapio",
   

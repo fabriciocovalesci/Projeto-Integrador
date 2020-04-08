@@ -4,4 +4,4 @@ from backend.fotosfrontend.models import FotosFrontend
 class FotosFrontendSerializers(ModelSerializer):
     class Meta:
         model = FotosFrontend
-        fields = ('id', 'foto_frontend')
+        fields = ('id', 'foto_frontend', 'descricao')

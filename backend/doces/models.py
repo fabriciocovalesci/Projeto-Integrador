@@ -12,3 +12,6 @@ class Doces(models.Model):
         return self.nome
 
 
+    class Meta:
+        verbose_name = "Doce"
+        verbose_name_plural = "Doces"
