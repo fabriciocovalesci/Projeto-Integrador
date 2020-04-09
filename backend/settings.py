@@ -49,7 +49,7 @@ INSTALLED_APPS = [
     "backend.bebidas",
     "backend.chas",
     "backend.pedido",
-    "backend.cardapio",
+    "backend.cardapio_produtos",
   
 ]
 

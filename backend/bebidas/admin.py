@@ -1,3 +1,4 @@
 from django.contrib import admin
+from backend.bebidas.models import Bebidas
 
-# Register your models here.
+admin.site.register(Bebidas)

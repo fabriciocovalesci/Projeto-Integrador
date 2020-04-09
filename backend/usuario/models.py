@@ -13,7 +13,7 @@ class Usuario(models.Model):
 
 
     def __str__(self):
-        return self.nome.username
+        return self.username.nome
 
 """
 Nome.

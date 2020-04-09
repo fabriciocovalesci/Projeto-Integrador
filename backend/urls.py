@@ -27,8 +27,9 @@ from backend.usuario.api.viewsets import UsuarioViewSets
 from backend.cafes.api.viewsets import CafesViewSets
 from backend.doces.api.viewsets import DocesViewSets
 from backend.salgados.api.viewsets import SalgadosViewSets
-from backend.cardapio.api.viewsets import CardapioViewSets
+from backend.cardapio_produtos.api.viewsets import CardapioProdutoViewSets
 from backend.bebidas.api.viewsets import BebidasViewSets
+from backend.chas.api.viewsets import ChasViewSets
 from backend.fotosfrontend.api.viewsets import FotosFrontendViewSets
 
 
@@ -41,8 +42,9 @@ router.register(r'api/v1/cafes', CafesViewSets)
 router.register(r'api/v1/doces', DocesViewSets)
 router.register(r'api/v1/salgados', SalgadosViewSets)
 router.register(r'api/v1/bebidas', BebidasViewSets)
+router.register(r'api/v1/chas', ChasViewSets)
 router.register(r'api/v1/fotosfrontend', FotosFrontendViewSets)
-router.register(r'api/v1/cardapio', CardapioViewSets, basename='Cardapio')
+router.register(r'api/v1/cardapio', CardapioProdutoViewSets, basename='Cardapio')
 
 
 
